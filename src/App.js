@@ -44,10 +44,6 @@ function App() {
           movieId={"1"}
           clickable={true} />
 
-          <Thumb image={"https://dx35vtwkllhj9.cloudfront.net/paramountpictures/transformers-rise-of-the-beasts/images/gallery/image3.jpg"}
-          movieId={"1"}
-          clickable={true} />
-
        
       </Grid>
 
