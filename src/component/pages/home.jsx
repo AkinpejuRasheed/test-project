@@ -1,13 +1,12 @@
 import React from 'react'
 import Banner from '../banner'
 import SearchBar from '../searchbar'
-import Grid from '../grid'
-import Thumb from '../thumb'
+
 import { useHomeFetch } from '../../hooks/useHomeFetch'
 import { BACKDROP_SIZE, IMAGE_BASE_URL } from '../../API/config'
 
 const Home = () => {
-   const {state,loading,error, searchTerm,setSearchTerm,setIsLoadingMore} = useHomeFetch();
+   const {state,error, searchTerm,setSearchTerm} = useHomeFetch();
    
    if (error) return <div>Something went wrong! </div>
 
