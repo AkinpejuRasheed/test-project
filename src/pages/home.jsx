@@ -1,9 +1,9 @@
 import React from 'react'
-import Banner from '../banner'
-import SearchBar from '../searchbar'
+import Banner from '../component/banner'
+import SearchBar from '../component/searchbar'
 
-import { useHomeFetch } from '../../hooks/useHomeFetch'
-import { BACKDROP_SIZE, IMAGE_BASE_URL } from '../../API/config'
+import { useHomeFetch } from '../hooks/useHomeFetch'
+import { BACKDROP_SIZE, IMAGE_BASE_URL } from '../API/config'
 
 const Home = () => {
    const {state,error, searchTerm,setSearchTerm} = useHomeFetch();

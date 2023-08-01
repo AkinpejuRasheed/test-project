@@ -1,8 +1,8 @@
 import './App.css';
 import { GlobalStyle } from './GlobalStyle';
 import Header from './component/Header';
+import Home from './pages/home';
 
-import Home from './component/pages/home';
 
 
 
